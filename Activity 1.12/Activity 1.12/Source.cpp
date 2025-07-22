@@ -1,5 +1,4 @@
 /*
-* 
 //Task 2: Hello World using C and Visual Studio
 
 #include <stdio.h>
@@ -9,8 +8,7 @@ int main(int argc, char* argv[])
 	printf("Hello World!\n");
 	return 0;
 }
-
-*/
+/*
 
 /*
 //Task 3: Matrix Multiply (the Hello World of Parallel Computing)
@@ -147,8 +145,6 @@ int main(int argc, char* argv[])
 }
 */
 
-/*
-
 //Task 6: Improving Performance
 
 #include <stdio.h>
@@ -156,7 +152,7 @@ int main(int argc, char* argv[])
 #include <assert.h>
 #include <chrono>
 
-#define N 1500
+#define N 100
 
 int A[N][N], B[N][N], C[N][N];
 
@@ -190,14 +186,13 @@ int main(int argc, char* argv[])
 
 		std::chrono::duration<double> elapsed = end_time - start_time;
 
-		printf("Time taken: %f seconds\n", elapsed.count());
+		printf("Time taken: %f ms\n", elapsed.count() * 1000);
 	}
 
 	return 0;
 }
 
-*/
-
+/*
 //Task 7: Exploring 2D array structures in C
 
 #include <stdio.h>
@@ -248,3 +243,4 @@ int main(int argc, char* argv[])
 
 	return 0;
 }
+*/
